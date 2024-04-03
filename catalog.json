@@ -67,7 +67,7 @@
     {
       "rel": "child",
       "type": "application/json",
-      "title": "cmip6",
+      "title": "workflow-1",
       "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/workflows/workflow-1.json"
     },
     {
