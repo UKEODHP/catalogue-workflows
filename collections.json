@@ -51,22 +51,22 @@
         {
           "rel": "self",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "parent",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
         },
         {
           "rel": "items",
           "type": "application/geo+json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1/items.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1/items.json"
         },
         {
           "rel": "root",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
         },
         {
           "rel": "items",

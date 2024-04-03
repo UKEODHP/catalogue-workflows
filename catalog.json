@@ -27,7 +27,7 @@
     {
       "rel": "self",
       "type": "application/json",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
     },
     {
       "rel": "root",
@@ -42,33 +42,33 @@
     {
       "rel": "data",
       "type": "application/json",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections.json"
     },
     {
       "rel": "conformance",
       "type": "application/json",
       "title": "STAC/WFS3 conformance classes implemented by this server",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/conformance.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/conformance.json"
     },
     {
       "rel": "search",
       "type": "application/geo+json",
       "title": "STAC search",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/search.json",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/search.json",
       "method": "GET"
     },
     {
       "rel": "search",
       "type": "application/geo+json",
       "title": "STAC search",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/search.json",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/search.json",
       "method": "POST"
     },
     {
       "rel": "child",
       "type": "application/json",
       "title": "cmip6",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalogue-workflows/workflow-1.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/workflows/workflow-1.json"
     },
     {
       "rel": "service-desc",

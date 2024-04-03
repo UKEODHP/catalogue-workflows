@@ -60,22 +60,22 @@
         {
           "rel": "self",
           "type": "application/geo+json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1/items/water-bodies-app.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1/items/water-bodies-app.json"
         },
         {
           "rel": "parent",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "collection",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "root",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
         }
       ],
       "assets": {
@@ -149,22 +149,22 @@
         {
           "rel": "self",
           "type": "application/geo+json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1/items/snuggs-app.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1/items/snuggs-app.json"
         },
         {
           "rel": "parent",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "collection",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "root",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
         }
       ],
       "assets": {
@@ -238,22 +238,22 @@
         {
           "rel": "self",
           "type": "application/geo+json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1/items/s-expression-cwl.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1/items/s-expression-cwl.json"
         },
         {
           "rel": "parent",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "collection",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "root",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
         }
       ],
       "assets": {
@@ -327,22 +327,22 @@
         {
           "rel": "self",
           "type": "application/geo+json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1/items/convert-url-app.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1/items/convert-url-app.json"
         },
         {
           "rel": "parent",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "collection",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "root",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
         }
       ],
       "assets": {
@@ -416,22 +416,22 @@
         {
           "rel": "self",
           "type": "application/geo+json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1/items/convert-stac-app.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1/items/convert-stac-app.json"
         },
         {
           "rel": "parent",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "collection",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
         },
         {
           "rel": "root",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
         }
       ],
       "assets": {
