@@ -1,0 +1,80 @@
+{
+  "collections": [
+    {
+      "type": "Collection",
+      "id": "workflow-1",
+      "stac_extensions": [],
+      "stac_version": "1.0.0",
+      "title": "",
+      "description": "Workflow definitions for EODHP - set 1",
+      "keywords": [],
+      "license": "",
+      "providers": [],
+      "summaries": {
+        "experiment_title": [],
+        "data_specs_version": [],
+        "variable_units": [],
+        "table_id": [],
+        "institution_id": [],
+        "frequency": [],
+        "variant_label": [],
+        "variable_id": [],
+        "activity_id": ["workflow"],
+        "var_id": [],
+        "sub_experiment_id": ["none"],
+        "mip_era": [],
+        "physics_index": [],
+        "experiment_id": [],
+        "variable_long_name": [],
+        "source_type": [],
+        "cf_standard_name": [],
+        "version": [],
+        "realization_index": [],
+        "instance_id": [],
+        "grid": [
+          "All grid attributes are set for the native grid and based on information from attribute source."
+        ],
+        "grid_label": [],
+        "initialisation_index": [],
+        "source_id": [],
+        "forcing_index": []
+      },
+      "extent": {
+        "spatial": {
+          "bbox": [[-180.0, -90.0, 179.99999991618097, 89.99999995809048]]
+        },
+        "temporal": {
+          "interval": [["1850-01-01T00:00:00.000Z", "4114-12-16T12:00:00.000Z"]]
+        }
+      },
+      "links": [
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1.json"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+        },
+        {
+          "rel": "items",
+          "type": "application/geo+json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/collections/workflow-1/items.json"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/catalogue-workflows/catalog.json"
+        },
+        {
+          "rel": "items",
+          "href": "https://stac-elasticsearch-stock-stac.130.246.130.221.nip.io/collections/workflow-1/items",
+          "type": "application/geo+json"
+        }
+      ],
+      "assets": {}
+    }
+  ]
+}

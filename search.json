@@ -1,0 +1,1424 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -180.0,
+                            -90.0
+                        ],
+                        [
+                            178.75,
+                            -90.0
+                        ],
+                        [
+                            178.75,
+                            90.0
+                        ],
+                        [
+                            -180.0,
+                            90.0
+                        ],
+                        [
+                            -180.0,
+                            -90.0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "4029-01-16T12:00:00+00:00",
+                "end_datetime": "4114-12-16T12:00:00+00:00",
+                "created": "2024-02-20T20:41:36.951308+00:00",
+                "updated": "2024-02-20T20:41:36.951308+00:00",
+                "datetime": "4072-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp585",
+                "activity_id": "ScenarioMIP",
+                "grid": "gs1x1",
+                "nominal_resolution": "100 km",
+                "variable_long_name": "Surface Upwelling Shortwave Radiation",
+                "instance_id": "CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rsus.gr.v20200806",
+                "grid_label": "gr",
+                "retracted": false,
+                "variable_id": "rsus",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rsus.gr.v20200806.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "mon",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.THU.CIESM.ssp585.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.29",
+                "cf_standard_name": "surface_upwelling_shortwave_flux_in_air",
+                "index_node": null,
+                "variable_units": "W m-2",
+                "replica": false,
+                "experiment_title": "update of RCP8.5 based on SSP5",
+                "levels": null,
+                "institution_id": "THU",
+                "table_id": "Amon",
+                "source_id": "CIESM"
+            },
+            "id": "CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rsus.gr.v20200806",
+            "bbox": [
+                -180.0,
+                -90.0,
+                178.75,
+                90.0
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/THU/CIESM/kr1.0/CMIP6_ScenarioMIP_THU_CIESM_ssp585_r1i1p1f1_Amon_rsus_gr_v20200806_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/THU/CIESM/ssp585/r1i1p1f1/Amon/rsus/gr/v20200806/rsus_Amon_CIESM_ssp585_r1i1p1f1_gr_402901-411412.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -180.0,
+                        -90.0,
+                        178.75,
+                        90.0
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "4029-01-01T00:00:00/4114-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rsus.gr.v20200806.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -180.0,
+                            -90.0
+                        ],
+                        [
+                            178.75,
+                            -90.0
+                        ],
+                        [
+                            178.75,
+                            90.0
+                        ],
+                        [
+                            -180.0,
+                            90.0
+                        ],
+                        [
+                            -180.0,
+                            -90.0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "4029-01-16T12:00:00+00:00",
+                "end_datetime": "4114-12-16T12:00:00+00:00",
+                "created": "2024-02-20T20:41:35.048023+00:00",
+                "updated": "2024-02-20T20:41:35.048023+00:00",
+                "datetime": "4072-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp585",
+                "activity_id": "ScenarioMIP",
+                "grid": "gs1x1",
+                "nominal_resolution": "100 km",
+                "variable_long_name": "Surface Upwelling Longwave Radiation",
+                "instance_id": "CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rlus.gr.v20200806",
+                "grid_label": "gr",
+                "retracted": false,
+                "variable_id": "rlus",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rlus.gr.v20200806.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "mon",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.THU.CIESM.ssp585.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.29",
+                "cf_standard_name": "surface_upwelling_longwave_flux_in_air",
+                "index_node": null,
+                "variable_units": "W m-2",
+                "replica": false,
+                "experiment_title": "update of RCP8.5 based on SSP5",
+                "levels": null,
+                "institution_id": "THU",
+                "table_id": "Amon",
+                "source_id": "CIESM"
+            },
+            "id": "CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rlus.gr.v20200806",
+            "bbox": [
+                -180.0,
+                -90.0,
+                178.75,
+                90.0
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/THU/CIESM/kr1.0/CMIP6_ScenarioMIP_THU_CIESM_ssp585_r1i1p1f1_Amon_rlus_gr_v20200806_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/THU/CIESM/ssp585/r1i1p1f1/Amon/rlus/gr/v20200806/rlus_Amon_CIESM_ssp585_r1i1p1f1_gr_402901-411412.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -180.0,
+                        -90.0,
+                        178.75,
+                        90.0
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "4029-01-01T00:00:00/4114-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rlus.gr.v20200806.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -179.0625,
+                            -90.0
+                        ],
+                        [
+                            179.0625,
+                            -90.0
+                        ],
+                        [
+                            179.0625,
+                            90.0
+                        ],
+                        [
+                            -179.0625,
+                            90.0
+                        ],
+                        [
+                            -179.0625,
+                            -90.0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "2251-01-01T12:00:00+00:00",
+                "end_datetime": "2300-12-31T12:00:00+00:00",
+                "created": "2024-02-20T14:56:09.681227+00:00",
+                "updated": "2024-02-20T14:56:09.681227+00:00",
+                "datetime": "2276-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp126",
+                "activity_id": "ScenarioMIP",
+                "grid": "native atmosphere N96 grid (145x192 latxlon)",
+                "nominal_resolution": "250 km",
+                "variable_long_name": "Eastward Near-Surface Wind",
+                "instance_id": "CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp126.r1i1p1f1.day.uas.gn.v20210318",
+                "grid_label": "gn",
+                "retracted": false,
+                "variable_id": "uas",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp126.r1i1p1f1.day.uas.gn.v20210318.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "day",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.CSIRO.ACCESS-ESM1-5.ssp126.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.30",
+                "cf_standard_name": "eastward_wind",
+                "index_node": null,
+                "variable_units": "m s-1",
+                "replica": false,
+                "experiment_title": "update of RCP2.6 based on SSP1",
+                "levels": [
+                    10.0,
+                    10.0
+                ],
+                "institution_id": "CSIRO",
+                "table_id": "day",
+                "source_id": "ACCESS-ESM1-5"
+            },
+            "id": "CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp126.r1i1p1f1.day.uas.gn.v20210318",
+            "bbox": [
+                -179.0625,
+                -90.0,
+                179.0625,
+                90.0
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/CSIRO/ACCESS-ESM1-5/kr1.0/CMIP6_ScenarioMIP_CSIRO_ACCESS-ESM1-5_ssp126_r1i1p1f1_day_uas_gn_v20210318_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO/ACCESS-ESM1-5/ssp126/r1i1p1f1/day/uas/gn/v20210318/uas_day_ACCESS-ESM1-5_ssp126_r1i1p1f1_gn_22510101-23001231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -90.0,
+                        179.0625,
+                        90.0
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2251-01-01T00:00:00/2300-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp126.r1i1p1f1.day.uas.gn.v20210318.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            -89.375
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "2251-01-01T12:00:00+00:00",
+                "end_datetime": "2300-12-31T12:00:00+00:00",
+                "created": "2024-02-20T20:22:32.531547+00:00",
+                "updated": "2024-02-20T20:22:32.531547+00:00",
+                "datetime": "2276-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp585",
+                "activity_id": "ScenarioMIP",
+                "grid": "native atmosphere N96 grid (144x192 latxlon)",
+                "nominal_resolution": "250 km",
+                "variable_long_name": "Precipitation",
+                "instance_id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.pr.gn.v20210317",
+                "grid_label": "gn",
+                "retracted": false,
+                "variable_id": "pr",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.pr.gn.v20210317.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "day",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.CSIRO-ARCCSS.ACCESS-CM2.ssp585.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.30",
+                "cf_standard_name": "precipitation_flux",
+                "index_node": null,
+                "variable_units": "kg m-2 s-1",
+                "replica": false,
+                "experiment_title": "update of RCP8.5 based on SSP5",
+                "levels": null,
+                "institution_id": "CSIRO-ARCCSS",
+                "table_id": "day",
+                "source_id": "ACCESS-CM2"
+            },
+            "id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.pr.gn.v20210317",
+            "bbox": [
+                -179.0625,
+                -89.375,
+                179.0625,
+                89.375
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/kr1.0/CMIP6_ScenarioMIP_CSIRO-ARCCSS_ACCESS-CM2_ssp585_r1i1p1f1_day_pr_gn_v20210317_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/ssp585/r1i1p1f1/day/pr/gn/v20210317/pr_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_22510101-23001231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -89.375,
+                        179.0625,
+                        89.375
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2251-01-01T00:00:00/2300-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.pr.gn.v20210317.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            -89.375
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "2251-01-01T12:00:00+00:00",
+                "end_datetime": "2300-12-31T12:00:00+00:00",
+                "created": "2024-02-20T14:49:51.165799+00:00",
+                "updated": "2024-02-20T14:49:51.165799+00:00",
+                "datetime": "2276-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp126",
+                "activity_id": "ScenarioMIP",
+                "grid": "native atmosphere N96 grid (144x192 latxlon)",
+                "nominal_resolution": "250 km",
+                "variable_long_name": "Precipitation",
+                "instance_id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp126.r1i1p1f1.day.pr.gn.v20210317",
+                "grid_label": "gn",
+                "retracted": false,
+                "variable_id": "pr",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp126.r1i1p1f1.day.pr.gn.v20210317.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "day",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.CSIRO-ARCCSS.ACCESS-CM2.ssp126.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.30",
+                "cf_standard_name": "precipitation_flux",
+                "index_node": null,
+                "variable_units": "kg m-2 s-1",
+                "replica": false,
+                "experiment_title": "update of RCP2.6 based on SSP1",
+                "levels": null,
+                "institution_id": "CSIRO-ARCCSS",
+                "table_id": "day",
+                "source_id": "ACCESS-CM2"
+            },
+            "id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp126.r1i1p1f1.day.pr.gn.v20210317",
+            "bbox": [
+                -179.0625,
+                -89.375,
+                179.0625,
+                89.375
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/kr1.0/CMIP6_ScenarioMIP_CSIRO-ARCCSS_ACCESS-CM2_ssp126_r1i1p1f1_day_pr_gn_v20210317_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/ssp126/r1i1p1f1/day/pr/gn/v20210317/pr_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_22510101-23001231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -89.375,
+                        179.0625,
+                        89.375
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2251-01-01T00:00:00/2300-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp126.r1i1p1f1.day.pr.gn.v20210317.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -180.0,
+                            -90.0
+                        ],
+                        [
+                            178.125,
+                            -90.0
+                        ],
+                        [
+                            178.125,
+                            90.0
+                        ],
+                        [
+                            -180.0,
+                            90.0
+                        ],
+                        [
+                            -180.0,
+                            -90.0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "2201-01-01T12:00:00+00:00",
+                "end_datetime": "2300-12-31T12:00:00+00:00",
+                "created": "2024-02-20T20:28:25.217846+00:00",
+                "updated": "2024-02-20T20:28:25.217846+00:00",
+                "datetime": "2251-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp585",
+                "activity_id": "ScenarioMIP",
+                "grid": "native atmosphere N96 grid (145x192 latxlon)",
+                "nominal_resolution": "250 km",
+                "variable_long_name": "Surface Downwelling Shortwave Radiation",
+                "instance_id": "CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp585.r1i1p1f1.day.rsds.gn.v20210318",
+                "grid_label": "gn",
+                "retracted": false,
+                "variable_id": "rsds",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp585.r1i1p1f1.day.rsds.gn.v20210318.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "day",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.CSIRO.ACCESS-ESM1-5.ssp585.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.30",
+                "cf_standard_name": "surface_downwelling_shortwave_flux_in_air",
+                "index_node": null,
+                "variable_units": "W m-2",
+                "replica": false,
+                "experiment_title": "update of RCP8.5 based on SSP5",
+                "levels": null,
+                "institution_id": "CSIRO",
+                "table_id": "day",
+                "source_id": "ACCESS-ESM1-5"
+            },
+            "id": "CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp585.r1i1p1f1.day.rsds.gn.v20210318",
+            "bbox": [
+                -180.0,
+                -90.0,
+                178.125,
+                90.0
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/CSIRO/ACCESS-ESM1-5/kr1.0/CMIP6_ScenarioMIP_CSIRO_ACCESS-ESM1-5_ssp585_r1i1p1f1_day_rsds_gn_v20210318_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO/ACCESS-ESM1-5/ssp585/r1i1p1f1/day/rsds/gn/v20210318/rsds_day_ACCESS-ESM1-5_ssp585_r1i1p1f1_gn_22010101-22501231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -180.0,
+                        -90.0,
+                        178.125,
+                        90.0
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2201-01-01T00:00:00/2250-12-31T23:59:59"
+                },
+                "data0002": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO/ACCESS-ESM1-5/ssp585/r1i1p1f1/day/rsds/gn/v20210318/rsds_day_ACCESS-ESM1-5_ssp585_r1i1p1f1_gn_22510101-23001231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -180.0,
+                        -90.0,
+                        178.125,
+                        90.0
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2251-01-01T00:00:00/2300-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp585.r1i1p1f1.day.rsds.gn.v20210318.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -180.0,
+                            -90.0
+                        ],
+                        [
+                            178.125,
+                            -90.0
+                        ],
+                        [
+                            178.125,
+                            90.0
+                        ],
+                        [
+                            -180.0,
+                            90.0
+                        ],
+                        [
+                            -180.0,
+                            -90.0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "2201-01-01T12:00:00+00:00",
+                "end_datetime": "2300-12-31T12:00:00+00:00",
+                "created": "2024-02-20T20:27:02.595272+00:00",
+                "updated": "2024-02-20T20:27:02.595272+00:00",
+                "datetime": "2251-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp585",
+                "activity_id": "ScenarioMIP",
+                "grid": "native atmosphere N96 grid (145x192 latxlon)",
+                "nominal_resolution": "250 km",
+                "variable_long_name": "Near-Surface Relative Humidity",
+                "instance_id": "CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp585.r1i1p1f1.day.hurs.gn.v20210318",
+                "grid_label": "gn",
+                "retracted": false,
+                "variable_id": "hurs",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp585.r1i1p1f1.day.hurs.gn.v20210318.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "day",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.CSIRO.ACCESS-ESM1-5.ssp585.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.30",
+                "cf_standard_name": "relative_humidity",
+                "index_node": null,
+                "variable_units": "%",
+                "replica": false,
+                "experiment_title": "update of RCP8.5 based on SSP5",
+                "levels": [
+                    2.0,
+                    2.0
+                ],
+                "institution_id": "CSIRO",
+                "table_id": "day",
+                "source_id": "ACCESS-ESM1-5"
+            },
+            "id": "CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp585.r1i1p1f1.day.hurs.gn.v20210318",
+            "bbox": [
+                -180.0,
+                -90.0,
+                178.125,
+                90.0
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/CSIRO/ACCESS-ESM1-5/kr1.0/CMIP6_ScenarioMIP_CSIRO_ACCESS-ESM1-5_ssp585_r1i1p1f1_day_hurs_gn_v20210318_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO/ACCESS-ESM1-5/ssp585/r1i1p1f1/day/hurs/gn/v20210318/hurs_day_ACCESS-ESM1-5_ssp585_r1i1p1f1_gn_22010101-22501231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -180.0,
+                        -90.0,
+                        178.125,
+                        90.0
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2201-01-01T00:00:00/2250-12-31T23:59:59"
+                },
+                "data0002": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO/ACCESS-ESM1-5/ssp585/r1i1p1f1/day/hurs/gn/v20210318/hurs_day_ACCESS-ESM1-5_ssp585_r1i1p1f1_gn_22510101-23001231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -180.0,
+                        -90.0,
+                        178.125,
+                        90.0
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2251-01-01T00:00:00/2300-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.CSIRO.ACCESS-ESM1-5.ssp585.r1i1p1f1.day.hurs.gn.v20210318.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            -89.375
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "2201-01-01T12:00:00+00:00",
+                "end_datetime": "2300-12-31T12:00:00+00:00",
+                "created": "2024-02-20T20:24:16.707928+00:00",
+                "updated": "2024-02-20T20:24:16.707928+00:00",
+                "datetime": "2251-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp585",
+                "activity_id": "ScenarioMIP",
+                "grid": "native atmosphere N96 grid (144x192 latxlon)",
+                "nominal_resolution": "250 km",
+                "variable_long_name": "Near-Surface Air Temperature",
+                "instance_id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.tas.gn.v20210317",
+                "grid_label": "gn",
+                "retracted": false,
+                "variable_id": "tas",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.tas.gn.v20210317.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "day",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.CSIRO-ARCCSS.ACCESS-CM2.ssp585.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.30",
+                "cf_standard_name": "air_temperature",
+                "index_node": null,
+                "variable_units": "K",
+                "replica": false,
+                "experiment_title": "update of RCP8.5 based on SSP5",
+                "levels": [
+                    2.0,
+                    2.0
+                ],
+                "institution_id": "CSIRO-ARCCSS",
+                "table_id": "day",
+                "source_id": "ACCESS-CM2"
+            },
+            "id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.tas.gn.v20210317",
+            "bbox": [
+                -179.0625,
+                -89.375,
+                179.0625,
+                89.375
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/kr1.0/CMIP6_ScenarioMIP_CSIRO-ARCCSS_ACCESS-CM2_ssp585_r1i1p1f1_day_tas_gn_v20210317_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/ssp585/r1i1p1f1/day/tas/gn/v20210317/tas_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_22010101-22501231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -89.375,
+                        179.0625,
+                        89.375
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2201-01-01T00:00:00/2250-12-31T23:59:59"
+                },
+                "data0002": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/ssp585/r1i1p1f1/day/tas/gn/v20210317/tas_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_22510101-23001231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -89.375,
+                        179.0625,
+                        89.375
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2251-01-01T00:00:00/2300-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.tas.gn.v20210317.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            -89.375
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "2201-01-01T12:00:00+00:00",
+                "end_datetime": "2300-12-31T12:00:00+00:00",
+                "created": "2024-02-20T20:22:50.109353+00:00",
+                "updated": "2024-02-20T20:22:50.109353+00:00",
+                "datetime": "2251-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp585",
+                "activity_id": "ScenarioMIP",
+                "grid": "native atmosphere N96 grid (144x192 latxlon)",
+                "nominal_resolution": "250 km",
+                "variable_long_name": "Sea Level Pressure",
+                "instance_id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.psl.gn.v20210317",
+                "grid_label": "gn",
+                "retracted": false,
+                "variable_id": "psl",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.psl.gn.v20210317.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "day",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.CSIRO-ARCCSS.ACCESS-CM2.ssp585.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.30",
+                "cf_standard_name": "air_pressure_at_mean_sea_level",
+                "index_node": null,
+                "variable_units": "Pa",
+                "replica": false,
+                "experiment_title": "update of RCP8.5 based on SSP5",
+                "levels": null,
+                "institution_id": "CSIRO-ARCCSS",
+                "table_id": "day",
+                "source_id": "ACCESS-CM2"
+            },
+            "id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.psl.gn.v20210317",
+            "bbox": [
+                -179.0625,
+                -89.375,
+                179.0625,
+                89.375
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/kr1.0/CMIP6_ScenarioMIP_CSIRO-ARCCSS_ACCESS-CM2_ssp585_r1i1p1f1_day_psl_gn_v20210317_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/ssp585/r1i1p1f1/day/psl/gn/v20210317/psl_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_22010101-22501231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -89.375,
+                        179.0625,
+                        89.375
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2201-01-01T00:00:00/2250-12-31T23:59:59"
+                },
+                "data0002": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/ssp585/r1i1p1f1/day/psl/gn/v20210317/psl_day_ACCESS-CM2_ssp585_r1i1p1f1_gn_22510101-23001231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -89.375,
+                        179.0625,
+                        89.375
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2251-01-01T00:00:00/2300-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp585.r1i1p1f1.day.psl.gn.v20210317.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            -89.375
+                        ],
+                        [
+                            179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            89.375
+                        ],
+                        [
+                            -179.0625,
+                            -89.375
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "start_datetime": "2201-01-01T12:00:00+00:00",
+                "end_datetime": "2300-12-31T12:00:00+00:00",
+                "created": "2024-02-20T14:51:20.681896+00:00",
+                "updated": "2024-02-20T14:51:20.681896+00:00",
+                "datetime": "2251-01-01T00:00:00+00:00",
+                "access": [
+                    "HTTPServer"
+                ],
+                "pid": null,
+                "source_type": "AOGCM",
+                "experiment_id": "ssp126",
+                "activity_id": "ScenarioMIP",
+                "grid": "native atmosphere N96 grid (144x192 latxlon)",
+                "nominal_resolution": "250 km",
+                "variable_long_name": "Daily Minimum Near-Surface Air Temperature",
+                "instance_id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp126.r1i1p1f1.day.tasmin.gn.v20210317",
+                "grid_label": "gn",
+                "retracted": false,
+                "variable_id": "tasmin",
+                "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp126.r1i1p1f1.day.tasmin.gn.v20210317.json",
+                "mip_era": "CMIP6",
+                "sub_experiment_id": "none",
+                "frequency": "day",
+                "latest": true,
+                "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.CSIRO-ARCCSS.ACCESS-CM2.ssp126.none.r1i1p1f1",
+                "variant_label": "r1i1p1f1",
+                "data_specs_version": "01.00.30",
+                "cf_standard_name": "air_temperature",
+                "index_node": null,
+                "variable_units": "K",
+                "replica": false,
+                "experiment_title": "update of RCP2.6 based on SSP1",
+                "levels": [
+                    2.0,
+                    2.0
+                ],
+                "institution_id": "CSIRO-ARCCSS",
+                "table_id": "day",
+                "source_id": "ACCESS-CM2"
+            },
+            "id": "CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp126.r1i1p1f1.day.tasmin.gn.v20210317",
+            "bbox": [
+                -179.0625,
+                -89.375,
+                179.0625,
+                89.375
+            ],
+            "stac_version": "1.0.0",
+            "assets": {
+                "reference_file": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/kr1.0/CMIP6_ScenarioMIP_CSIRO-ARCCSS_ACCESS-CM2_ssp126_r1i1p1f1_day_tasmin_gn_v20210317_kr1.0.json",
+                    "type": "application/zstd",
+                    "roles": [
+                        "reference",
+                        "data"
+                    ],
+                    "size": null,
+                    "open_zarr_kwargs": {
+                        "decode_times": true
+                    },
+                    "checksum": null,
+                    "checksum_type": null
+                },
+                "data0001": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/ssp126/r1i1p1f1/day/tasmin/gn/v20210317/tasmin_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_22010101-22501231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -89.375,
+                        179.0625,
+                        89.375
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2201-01-01T00:00:00/2250-12-31T23:59:59"
+                },
+                "data0002": {
+                    "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/CSIRO-ARCCSS/ACCESS-CM2/ssp126/r1i1p1f1/day/tasmin/gn/v20210317/tasmin_day_ACCESS-CM2_ssp126_r1i1p1f1_gn_22510101-23001231.nc",
+                    "type": "application/netcdf",
+                    "roles": [
+                        "data"
+                    ],
+                    "area": [
+                        -179.0625,
+                        -89.375,
+                        179.0625,
+                        89.375
+                    ],
+                    "checksum": null,
+                    "checksum_type": null,
+                    "time": "2251-01-01T00:00:00/2300-12-31T23:59:59"
+                }
+            },
+            "links": [
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.CSIRO-ARCCSS.ACCESS-CM2.ssp126.r1i1p1f1.day.tasmin.gn.v20210317.json",
+                    "rel": "self",
+                    "type": "application/geo+json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "parent",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json",
+                    "rel": "collection",
+                    "type": "application/json"
+                },
+                {
+                    "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json",
+                    "rel": "root",
+                    "type": "application/json"
+                }
+            ],
+            "collection": "cmip6"
+        }
+    ],
+    "links": [
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+            "rel": "self",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/search.json"
+        }
+    ],
+    "context": {
+        "returned": 10,
+        "limit": 10,
+        "matched": 30134
+    }
+}
