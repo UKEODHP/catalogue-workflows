@@ -59,17 +59,12 @@
     {
       "rel": "items",
       "type": "application/geo+json",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1/items.json"
     },
     {
       "rel": "root",
       "type": "application/json",
       "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
-    },
-    {
-      "rel": "items",
-      "href": "https://stac-elasticsearch-stock-stac.130.246.130.221.nip.io/collections/cmip6/items",
-      "type": "application/geo+json"
     }
   ],
   "assets": {}
