@@ -53,20 +53,44 @@
     {
       "rel": "child",
       "type": "application/json",
-      "title": "workflow-1",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/public-workflows/workflow-1.json"
+      "title": "workflow__convert-stac",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__convert-stac.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "workflow__convert-url",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__convert-url.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "workflow__s-expression",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__s-expression.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "workflow__snuggs",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__snuggs.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "workflow__water-bodies",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__water-bodies.json"
     },
     {
       "rel": "service-desc",
       "type": "application/vnd.oai.openapi+json;version=3.0",
       "title": "OpenAPI service description",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/api.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/api.json"
     },
     {
       "rel": "service-doc",
       "type": "text/html",
       "title": "OpenAPI service documentation",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/api.html.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/api.html.json"
     }
   ],
   "stac_extensions": []
