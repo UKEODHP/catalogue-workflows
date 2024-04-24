@@ -1,0 +1,93 @@
+{
+    "type": "Collection",
+    "id": "workflow__convert-url",
+    "stac_extensions": [],
+    "stac_version": "1.0.0",
+    "description": "Convert URL",
+    "license": "N/A",
+    "keywords": [
+        "stac",
+        "ndvi"
+    ],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180.0,
+                    -90.0,
+                    179.99999991618097,
+                    89.99999995809048
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    null,
+                    null
+                ]
+            ]
+        }
+    },
+    "summaries": {
+        "inputs": {
+            "fn": {
+                "label": "the operation to perform",
+                "doc": "the operation to perform",
+                "type": "string"
+            },
+            "url": {
+                "label": "the image to convert",
+                "doc": "the image to convert",
+                "type": "string"
+            },
+            "size": {
+                "label": "the percentage for a resize operation",
+                "doc": "the percentage for a resize operation",
+                "type": "string"
+            }
+        },
+        "outputs": [
+            {
+                "id": "converted_image",
+                "type": "Directory",
+                "outputSource": [
+                    "convert/results"
+                ]
+            }
+        ],
+        "examples": [
+            {
+                "fn": "resize",
+                "url": "https://eoepca.org/media_portal/images/logo6_med.original.png",
+                "size": "50%"
+            }
+        ]
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/workflow__convert-url.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+    ],
+    "assets": {
+        "cwl_script": {
+            "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/convert-url-app.cwl",
+            "roles": [
+                "data"
+            ],
+            "type": "application/cwl"
+        }
+    }
+}

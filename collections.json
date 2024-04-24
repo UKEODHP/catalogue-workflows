@@ -2,79 +2,394 @@
   "collections": [
     {
       "type": "Collection",
-      "id": "workflow-1",
+      "id": "workflow__convert-stac",
       "stac_extensions": [],
       "stac_version": "1.0.0",
-      "title": "",
-      "description": "Workflow definitions for EODHP - set 1",
-      "keywords": [],
-      "license": "",
-      "providers": [],
-      "summaries": {
-        "experiment_title": [],
-        "data_specs_version": [],
-        "variable_units": [],
-        "table_id": [],
-        "institution_id": [],
-        "frequency": [],
-        "variant_label": [],
-        "variable_id": [],
-        "activity_id": ["workflow"],
-        "var_id": [],
-        "sub_experiment_id": ["none"],
-        "mip_era": [],
-        "physics_index": [],
-        "experiment_id": [],
-        "variable_long_name": [],
-        "source_type": [],
-        "cf_standard_name": [],
-        "version": [],
-        "realization_index": [],
-        "instance_id": [],
-        "grid": [
-          "All grid attributes are set for the native grid and based on information from attribute source."
-        ],
-        "grid_label": [],
-        "initialisation_index": [],
-        "source_id": [],
-        "forcing_index": []
-      },
+      "description": "Convert Stac",
+      "license": "N/A",
+      "keywords": ["stac", "ndvi"],
       "extent": {
         "spatial": {
           "bbox": [[-180.0, -90.0, 179.99999991618097, 89.99999995809048]]
         },
         "temporal": {
-          "interval": [["1850-01-01T00:00:00.000Z", "4114-12-16T12:00:00.000Z"]]
+          "interval": [[null, null]]
         }
+      },
+      "summaries": {
+        "inputs": {
+          "fn": {
+            "label": "the operation to perform",
+            "doc": "the operation to perform",
+            "type": "string"
+          },
+          "stac": {
+            "label": "the image to convert as a STAC item",
+            "doc": "the image to convert as a STAC item",
+            "type": "Directory"
+          },
+          "size": {
+            "label": "the percentage for a resize operation",
+            "doc": "the percentage for a resize operation",
+            "type": "string"
+          }
+        },
+        "outputs": [
+          {
+            "id": "converted_image",
+            "type": "Directory",
+            "outputSource": ["convert/results"]
+          }
+        ],
+        "examples": [
+          {
+            "fn": "resize",
+            "stac": "https://raw.githubusercontent.com/EOEPCA/convert/main/stac/eoepca-logo.json",
+            "size": "50%"
+          }
+        ]
       },
       "links": [
         {
           "rel": "self",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/workflow__convert-stac.json"
         },
         {
           "rel": "parent",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
-        },
-        {
-          "rel": "items",
-          "type": "application/geo+json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections/workflow-1/items.json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
         },
         {
           "rel": "root",
           "type": "application/json",
-          "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
-        },
-        {
-          "rel": "items",
-          "href": "https://stac-elasticsearch-stock-stac.130.246.130.221.nip.io/collections/workflow-1/items",
-          "type": "application/geo+json"
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
         }
       ],
-      "assets": {}
+      "assets": {
+        "cwl_script": {
+          "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/convert-stac-app.cwl",
+          "roles": ["data"],
+          "type": "application/cwl"
+        }
+      }
+    },
+    {
+      "type": "Collection",
+      "id": "workflow__convert-url",
+      "stac_extensions": [],
+      "stac_version": "1.0.0",
+      "description": "Convert URL",
+      "license": "N/A",
+      "keywords": ["stac", "ndvi"],
+      "extent": {
+        "spatial": {
+          "bbox": [[-180.0, -90.0, 179.99999991618097, 89.99999995809048]]
+        },
+        "temporal": {
+          "interval": [[null, null]]
+        }
+      },
+      "summaries": {
+        "inputs": {
+          "fn": {
+            "label": "the operation to perform",
+            "doc": "the operation to perform",
+            "type": "string"
+          },
+          "url": {
+            "label": "the image to convert",
+            "doc": "the image to convert",
+            "type": "string"
+          },
+          "size": {
+            "label": "the percentage for a resize operation",
+            "doc": "the percentage for a resize operation",
+            "type": "string"
+          }
+        },
+        "outputs": [
+          {
+            "id": "converted_image",
+            "type": "Directory",
+            "outputSource": ["convert/results"]
+          }
+        ],
+        "examples": [
+          {
+            "fn": "resize",
+            "url": "https://eoepca.org/media_portal/images/logo6_med.original.png",
+            "size": "50%"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/workflow__convert-url.json"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+      ],
+      "assets": {
+        "cwl_script": {
+          "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/convert-url-app.cwl",
+          "roles": ["data"],
+          "type": "application/cwl"
+        }
+      }
+    },
+    {
+      "type": "Collection",
+      "id": "workflow__s-expression",
+      "stac_extensions": [],
+      "stac_version": "1.0.0",
+      "description": "Applies s expressions to EO acquisitions",
+      "license": "N/A",
+      "keywords": ["stac", "ndvi"],
+      "extent": {
+        "spatial": {
+          "bbox": [[-180.0, -90.0, 179.99999991618097, 89.99999995809048]]
+        },
+        "temporal": {
+          "interval": [[null, null]]
+        }
+      },
+      "summaries": {
+        "inputs": {
+          "input_reference": {
+            "doc": "Input product reference",
+            "label": "Input product reference",
+            "type": "Directory"
+          },
+          "s_expression": {
+            "doc": "s expression",
+            "label": "s expression",
+            "type": "string"
+          },
+          "cbn": {
+            "doc": "Common band name",
+            "label": "Common band name",
+            "type": "string"
+          }
+        },
+        "outputs": [
+          {
+            "id": "wf_outputs",
+            "outputSource": ["step_1/results"],
+            "type": "Directory"
+          }
+        ],
+        "examples": [
+          {
+            "input_reference": "https://resource-catalogue-open.{{domain}}/csw/?mode=opensearch&service=CSW&version=3.0.0&request=GetRecords&elementsetname=full&resulttype=results&typenames=csw:Record&recordids=S2B_MSIL2A_20200902T090559_N0214_R050_T34SFH_20200902T113910.SAFE",
+            "cbn": "ndvi",
+            "s_expression": "(/ (- nir red) (+ nir red))"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/workflow__s-expression.json"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+      ],
+      "assets": {
+        "cwl_script": {
+          "href": "https://raw.githubusercontent.com/EOEPCA/app-s-expression/main/app-s-expression.dev.0.0.2.cwl",
+          "roles": ["data"],
+          "type": "application/cwl"
+        }
+      }
+    },
+    {
+      "type": "Collection",
+      "id": "workflow__snuggs",
+      "stac_extensions": [],
+      "stac_version": "1.0.0",
+      "description": "Applies s expressions to EO acquisitions",
+      "license": "N/A",
+      "keywords": ["stac", "ndvi"],
+      "extent": {
+        "spatial": {
+          "bbox": [[-180.0, -90.0, 179.99999991618097, 89.99999995809048]]
+        },
+        "temporal": {
+          "interval": [[null, null]]
+        }
+      },
+      "summaries": {
+        "inputs": {
+          "input_reference": {
+            "doc": "Input product reference",
+            "label": "Input product reference",
+            "type": "string[]"
+          },
+          "s_expression": {
+            "doc": "s expression",
+            "label": "s expression",
+            "type": "string[]"
+          }
+        },
+        "outputs": [
+          {
+            "id": "snuggs_outputs",
+            "type": "Directory[]",
+            "outputSource": ["step_1/results"]
+          }
+        ],
+        "examples": [
+          {
+            "input_reference": "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_38VNM_20221124_0_L2A",
+            "s_expression": "ndvi:(/ (- B05 B03) (+ B05 B03))"
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/workflow__snuggs.json"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+      ],
+      "assets": {
+        "cwl_script": {
+          "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/snuggs-app.cwl",
+          "roles": ["data"],
+          "type": "application/cwl"
+        }
+      }
+    },
+    {
+      "type": "Collection",
+      "id": "workflow__water-bodies",
+      "stac_extensions": [],
+      "stac_version": "1.0.0",
+      "description": "Water bodies detection based on NDWI and otsu threshold",
+      "license": "N/A",
+      "keywords": ["stac", "ndvi"],
+      "extent": {
+        "spatial": {
+          "bbox": [[-180.0, -90.0, 179.99999991618097, 89.99999995809048]]
+        },
+        "temporal": {
+          "interval": [[null, null]]
+        }
+      },
+      "summaries": {
+        "inputs": {
+          "aoi": {
+            "label": "area of interest",
+            "doc": "area of interest as a bounding box",
+            "type": "string"
+          },
+          "epsg": {
+            "label": "EPSG code",
+            "doc": "EPSG code",
+            "type": "string",
+            "default": "EPSG:4326"
+          },
+          "stac_items": {
+            "label": "Sentinel-2 STAC items",
+            "doc": "list of Sentinel-2 COG STAC items",
+            "type": "string[]"
+          },
+          "bands": {
+            "label": "bands used for the NDWI",
+            "doc": "bands used for the NDWI",
+            "type": "string[]",
+            "default": ["green", "nir"]
+          }
+        },
+        "outputs": [
+          {
+            "id": "stac",
+            "outputSource": ["node_stac/stac_catalog"],
+            "type": "Directory"
+          }
+        ],
+        "examples": [
+          {
+            "stac_items": [
+              "https://test.eodatahub.org.uk/catalogue-data/element84-data/collections/sentinel-2-c1-l2a/items/S2B_T42MVU_20240319T054135_L2A.json"
+            ],
+            "aoi": "68.09, -6.42, 69.09, -5.43",
+            "epsg": "EPSG:4326",
+            "bands": ["green", "nir"]
+          }
+        ]
+      },
+      "links": [
+        {
+          "rel": "self",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/workflow__water-bodies.json"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+      ],
+      "assets": {
+        "cwl_script": {
+          "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/water-bodies-app.cwl",
+          "roles": ["data"],
+          "type": "application/cwl"
+        }
+      }
+    }
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+    },
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections.json"
     }
   ]
 }

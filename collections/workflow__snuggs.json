@@ -1,0 +1,87 @@
+{
+    "type": "Collection",
+    "id": "workflow__snuggs",
+    "stac_extensions": [],
+    "stac_version": "1.0.0",
+    "description": "Applies s expressions to EO acquisitions",
+    "license": "N/A",
+    "keywords": [
+        "stac",
+        "ndvi"
+    ],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180.0,
+                    -90.0,
+                    179.99999991618097,
+                    89.99999995809048
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    null,
+                    null
+                ]
+            ]
+        }
+    },
+    "summaries": {
+        "inputs": {
+            "input_reference": {
+                "doc": "Input product reference",
+                "label": "Input product reference",
+                "type": "string[]"
+            },
+            "s_expression": {
+                "doc": "s expression",
+                "label": "s expression",
+                "type": "string[]"
+            }
+        },
+        "outputs": [
+            {
+                "id": "snuggs_outputs",
+                "type": "Directory[]",
+                "outputSource": [
+                    "step_1/results"
+                ]
+            }
+        ],
+        "examples": [
+            {
+                "input_reference": "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_38VNM_20221124_0_L2A",
+                "s_expression": "ndvi:(/ (- B05 B03) (+ B05 B03))"
+            }
+        ]
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/workflow__snuggs.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+    ],
+    "assets": {
+        "cwl_script": {
+            "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/snuggs-app.cwl",
+            "roles": [
+                "data"
+            ],
+            "type": "application/cwl"
+        }
+    }
+}
