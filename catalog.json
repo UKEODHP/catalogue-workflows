@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
   "id": "stac-fastapi",
-  "title": "Registered Workflows",
-  "description": "Catalogue containing registered workflows",
+  "title": "Public Workflows",
+  "description": "Catalogue containing public workflows that can be deployed",
   "stac_version": "1.0.0",
   "conformsTo": [
     "http:/www.opengis.net/spec/ogcapi-features-3/1.0/conf/features-filter",
