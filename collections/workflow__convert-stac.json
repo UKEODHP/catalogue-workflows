@@ -68,17 +68,17 @@
         {
             "rel": "self",
             "type": "application/json",
-            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/workflow__convert-stac.json"
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__convert-stac.json"
         },
         {
             "rel": "parent",
             "type": "application/json",
-            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/catalog.json"
         },
         {
             "rel": "root",
             "type": "application/json",
-            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/catalog.json"
         }
     ],
     "assets": {
