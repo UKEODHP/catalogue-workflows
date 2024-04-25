@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
   "id": "stac-fastapi",
-  "title": "Registered Workflows",
-  "description": "Catalogue containing registered workflows",
+  "title": "Public Workflows",
+  "description": "Catalogue containing public workflows that can be deployed",
   "stac_version": "1.0.0",
   "conformsTo": [
     "http:/www.opengis.net/spec/ogcapi-features-3/1.0/conf/features-filter",
@@ -27,7 +27,7 @@
     {
       "rel": "self",
       "type": "application/json",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/catalog.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/catalog.json"
     },
     {
       "rel": "root",
@@ -42,45 +42,55 @@
     {
       "rel": "data",
       "type": "application/json",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/collections.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections.json"
     },
     {
       "rel": "conformance",
       "type": "application/json",
       "title": "STAC/WFS3 conformance classes implemented by this server",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/conformance.json"
-    },
-    {
-      "rel": "search",
-      "type": "application/geo+json",
-      "title": "STAC search",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/search.json",
-      "method": "GET"
-    },
-    {
-      "rel": "search",
-      "type": "application/geo+json",
-      "title": "STAC search",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/workflows/search.json",
-      "method": "POST"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/conformance.json"
     },
     {
       "rel": "child",
       "type": "application/json",
-      "title": "workflow-1",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/workflows/workflow-1.json"
+      "title": "workflow__convert-stac",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__convert-stac.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "workflow__convert-url",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__convert-url.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "workflow__s-expression",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__s-expression.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "workflow__snuggs",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__snuggs.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "workflow__water-bodies",
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__water-bodies.json"
     },
     {
       "rel": "service-desc",
       "type": "application/vnd.oai.openapi+json;version=3.0",
       "title": "OpenAPI service description",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/api.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/api.json"
     },
     {
       "rel": "service-doc",
       "type": "text/html",
       "title": "OpenAPI service documentation",
-      "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/api.html.json"
+      "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/api.html.json"
     }
   ],
   "stac_extensions": []
