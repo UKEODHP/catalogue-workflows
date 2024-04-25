@@ -1,0 +1,109 @@
+{
+    "type": "Collection",
+    "id": "workflow__water-bodies",
+    "stac_extensions": [],
+    "stac_version": "1.0.0",
+    "description": "Water bodies detection based on NDWI and otsu threshold",
+    "license": "N/A",
+    "keywords": [
+        "stac",
+        "ndvi"
+    ],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180.0,
+                    -90.0,
+                    179.99999991618097,
+                    89.99999995809048
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    null,
+                    null
+                ]
+            ]
+        }
+    },
+    "summaries": {
+        "inputs": {
+            "aoi": {
+                "label": "area of interest",
+                "doc": "area of interest as a bounding box",
+                "type": "string"
+            },
+            "epsg": {
+                "label": "EPSG code",
+                "doc": "EPSG code",
+                "type": "string",
+                "default": "EPSG:4326"
+            },
+            "stac_items": {
+                "label": "Sentinel-2 STAC items",
+                "doc": "list of Sentinel-2 COG STAC items",
+                "type": "string[]"
+            },
+            "bands": {
+                "label": "bands used for the NDWI",
+                "doc": "bands used for the NDWI",
+                "type": "string[]",
+                "default": [
+                    "green",
+                    "nir"
+                ]
+            }
+        },
+        "outputs": [
+            {
+                "id": "stac",
+                "outputSource": [
+                    "node_stac/stac_catalog"
+                ],
+                "type": "Directory"
+            }
+        ],
+        "examples": [
+            {
+                "stac_items": [
+                    "https://test.eodatahub.org.uk/catalogue-data/element84-data/collections/sentinel-2-c1-l2a/items/S2B_T42MVU_20240319T054135_L2A.json"
+                ],
+                "aoi": "68.09, -6.42, 69.09, -5.43",
+                "epsg": "EPSG:4326",
+                "bands": [
+                    "green",
+                    "nir"
+                ]
+            }
+        ]
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/collections/workflow__water-bodies.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/catalog.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/public-workflows/catalog.json"
+        }
+    ],
+    "assets": {
+        "cwl_script": {
+            "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/water-bodies-app.cwl",
+            "roles": [
+                "data"
+            ],
+            "type": "application/cwl"
+        }
+    }
+}
