@@ -1,0 +1,10 @@
+{
+  "summaries": {},
+  "assets": {
+    "cwl_script": {
+      "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/convert-url-app.cwl",
+      "roles": ["data"],
+      "type": "application/cwl"
+    }
+  }
+}
