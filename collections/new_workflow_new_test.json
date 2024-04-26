@@ -1,0 +1,24 @@
+{
+  "extent": {
+    "spatial": {
+      "bbox": [[-180.0, -90.0, 179.99999991618097, 89.99999995809048]]
+    }
+  },
+  "summaries": {
+    "pricing": "£100",
+    "examples": [
+      {
+        "fn": "resize",
+        "stac": "https://raw.githubusercontent.com/EOEPCA/convert/main/stac/eoepca-logo.json",
+        "size": "50%"
+      }
+    ]
+  },
+  "assets": {
+    "cwl_script": {
+      "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/convert-url-app.cwl",
+      "roles": ["data"],
+      "type": "application/cwl"
+    }
+  }
+}
