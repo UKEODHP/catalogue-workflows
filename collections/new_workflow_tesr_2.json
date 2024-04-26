@@ -1,5 +1,7 @@
 {
-  "summaries": {},
+  "summaries": {
+    "pricing": "£100"
+  },
   "assets": {
     "cwl_script": {
       "href": "https://raw.githubusercontent.com/EOEPCA/deployment-guide/main/deploy/samples/requests/processing/convert-url-app.cwl",
